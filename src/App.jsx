@@ -43,7 +43,7 @@ export default function PortfolioWebsite() {
     },
     {
       title: "Higher Secondary (12th)",
-      place: "Your School Name",
+      place: "Ram-Eesh International School",
       year: "Completed",
     },
   ];
