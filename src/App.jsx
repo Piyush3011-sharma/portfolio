@@ -17,6 +17,7 @@ export default function PortfolioWebsite() {
       title: "Hospital Management System",
       tech: "Python",
       desc: "CRUD-based system to manage patients, doctors, and records.",
+      
     },
     {
       title: "Quiz Web App",
@@ -114,8 +115,7 @@ export default function PortfolioWebsite() {
       >
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         <p className="text-gray-400 leading-relaxed">
-          I am a Computer Science student passionate about web development and problem solving.
-          I build responsive React applications and continuously improve my DSA skills.
+          I’m a Computer Science student passionate about web development, problem solving, and building clean user experiences. I enjoy turning ideas into responsive and functional projects while continuously learning modern technologies and improving my skills. Currently focused on Full Stack development, Java, DSA, React, and creating projects that combine creativity with practical functionality.
         </p>
       </motion.section>
 
