@@ -80,10 +80,6 @@ export default function PortfolioWebsite() {
   className="px-4 py-1 border border-white rounded-full hover:bg-white hover:text-black transition">
   RESUME
   </a>
-  <a href="/portfolio/ResumePiyush.pdf"
-     download
-     className="px-4 py-1 border border-white rounded-full hover:bg-white hover:text-black transition">
-     </a>
   </div>
 </div>
 
@@ -117,6 +113,12 @@ export default function PortfolioWebsite() {
             hover:scale-110 hover:shadow-[0_0_15px_gray] transition duration-300"
           >
             View Projects
+          </a>
+          <a href="/portfolio/ResumePiyush.pdf"
+            download
+            className="px-6 py-2 bg-green-500 text-white rounded-full 
+            hover:scale-110 hover:shadow-[0_0_20px_green] transition duration-300">
+             Download Resume
           </a>
         </div>
       </motion.div>
