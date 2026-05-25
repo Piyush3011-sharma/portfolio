@@ -73,14 +73,13 @@ export default function PortfolioWebsite() {
     ))}
 
     {/* RESUME BUTTON */}
-    <a
-      href="/ResumePiyush.pdf"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-4 py-1 border border-white rounded-full hover:bg-white hover:text-black transition"
-    >
-      RESUME
-    </a>
+   <a
+  href="./ResumePiyush.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-4 py-1 border border-white rounded-full hover:bg-white hover:text-black transition">
+  RESUME
+  </a>
   </div>
 </div>
 
