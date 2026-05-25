@@ -58,17 +58,31 @@ export default function PortfolioWebsite() {
     <div className="bg-black text-white min-h-screen font-sans">
 
       {/* NAV */}
-      <div className="flex justify-between items-center px-8 py-5 border-b border-gray-800">
-        <h1 className="text-xl font-bold">Piyush.dev</h1>
+<div className="flex justify-between items-center px-8 py-5 border-b border-gray-800">
+  <h1 className="text-xl font-bold">Piyush.dev</h1>
 
-        <div className="flex gap-6 text-sm text-gray-300">
-          {["about", "skills", "projects", "contact"].map((item) => (
-            <a key={item} href={`#${item}`} className="hover:text-white transition">
-              {item.toUpperCase()}
-            </a>
-          ))}
-        </div>
-      </div>
+  <div className="flex gap-6 text-sm text-gray-300 items-center">
+    {["about", "skills", "projects", "contact"].map((item) => (
+      <a
+        key={item}
+        href={`#${item}`}
+        className="hover:text-white transition"
+      >
+        {item.toUpperCase()}
+      </a>
+    ))}
+
+    {/* RESUME BUTTON */}
+    <a
+      href="/ResumePiyush.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-1 border border-white rounded-full hover:bg-white hover:text-black transition"
+    >
+      RESUME
+    </a>
+  </div>
+</div>
 
       {/* HERO */}
       <motion.div
@@ -206,7 +220,7 @@ export default function PortfolioWebsite() {
         <h2 className="text-2xl font-semibold mb-4">Contact Me</h2>
 
         <p className="text-gray-400 mb-6">
-          Let’s connect and build something great together.
+          Let's connect and build something great together.
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
