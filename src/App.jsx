@@ -80,6 +80,10 @@ export default function PortfolioWebsite() {
   className="px-4 py-1 border border-white rounded-full hover:bg-white hover:text-black transition">
   RESUME
   </a>
+  <a href="/portfolio/ResumePiyush.pdf"
+     download
+     className="px-4 py-1 border border-white rounded-full hover:bg-white hover:text-black transition">
+     </a>
   </div>
 </div>
 
